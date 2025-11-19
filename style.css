@@ -1,0 +1,63 @@
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-align: center;
+    background-color: #666;
+    height: 100vh;
+}
+*{
+    margin: 0;
+    padding: 0;
+}
+.ecranJeu{
+    margin-top: 100px;
+    font-size: 18px;
+}
+.container{
+    width: 400px;
+    background-color: #fff;
+    margin: 0 auto;
+    height: 100%;
+
+}
+h1{
+    text-align: center;
+    color: orangered;
+    text-transform: capitalize;
+    background-color: #1d1c1c;
+    padding: 10px;
+}
+#ciseaux,#pierre,#papier{
+    padding: 10px 20px;
+    border: none;
+    border-radius: 10px;
+    margin-top: 200px;
+    box-shadow: 4px 4px 4px #000;
+    margin-left: 20px;
+    cursor: pointer;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+#pierre{
+    background-color: green;
+    color: #fff;
+}
+#papier{
+    background-color: yellow;
+    color: #000;
+}
+#ciseaux{
+    background-color: red;
+    color: #fff;
+}
+.container2{
+    width: 200px;
+    background-color: orangered;
+    margin: 80px auto 0px auto;
+    padding: 40px;
+    box-shadow: 4px 4px 18px #000;
+    border-radius: 20px;
+    text-transform: capitalize;
+    color: #fff;
+}
